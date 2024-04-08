@@ -1,24 +1,27 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# expense_tracker
 
-A new Flutter project.
+# Expense Tracker
+    Expense Tracker is a Flutter project aimed at helping users manage their expenses efficiently. This application provides a user-friendly interface to track expenses and monitor spending habits. Below is a brief overview of the project structure and key features:
 
-## Getting Started
+# Project Structure
+    lib: This directory contains all the Dart code for our Flutter project.
+    assets: Includes static assets such as icons.
+    core: Houses custom widgets, common utilities, and shared values.
+    binding: Contains initial bindings.
+    data.local.preference: Stores local database files using Sqllite.
+    module: Contains module bindings, controllers, views, and models.
 
-This project is a starting point for a Flutter application.
+# OTP (One-Time Password)
+    For testing purposes, a static OTP (One-Time Password) "1234" is implemented in our project.
 
-A few resources to get you started if this is your first Flutter project:
+# Local Storage (SQLite)
+    Expense Tracker utilizes SQLite for storing data locally, ensuring data persistence and accessibility.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Getting Started
+    To get started with Expense Tracker, follow these steps:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# expense-tracker
->>>>>>> a7716932a1f60b3ff31416e3af7b7a21b17a65a9
-=======
-read
->>>>>>> 0a77abfb70d5e4e0a49fd93b5607c0ef5783f0ca
+# Clone the repository to your local machine.
+    Navigate to the project directory.
+    Install dependencies using flutter pub get.
+    Run the application using flutter run.
+# Features
+    Expense Tracking: Record and categorize expenses for easy management.
