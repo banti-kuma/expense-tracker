@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # expense_tracker
 
 A new Flutter project.
@@ -18,3 +19,6 @@ samples, guidance on mobile development, and a full API reference.
 =======
 # expense-tracker
 >>>>>>> a7716932a1f60b3ff31416e3af7b7a21b17a65a9
+=======
+read
+>>>>>>> 0a77abfb70d5e4e0a49fd93b5607c0ef5783f0ca
