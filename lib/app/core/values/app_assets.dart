@@ -1,0 +1,17 @@
+const String iconsCalendar = 'assets/icons/calendar.svg';
+const String iconsClose = 'assets/icons/close.svg';
+const String iconsEntertainment = 'assets/icons/entertainment.svg';
+const String iconsSplashIcon = 'assets/icons/splash_icon.png';
+const String iconsBackArrowIcon = 'assets/icons/back_arrow_icon.svg';
+const String iconsForwardArrowIcon = 'assets/icons/forward_arrow_icon.svg';
+const String iconsDollar = 'assets/icons/dollar.svg';
+const String iconsCalender = 'assets/icons/calender.svg';
+const String iconsCategory = 'assets/icons/category.svg';
+const String iconsNotes = 'assets/icons/notes.svg';
+const String iconsEducation = 'assets/icons/education.svg';
+const String iconsHealthcare = 'assets/icons/healthcare.svg';
+const String iconsHouse = 'assets/icons/house.svg';
+const String iconsShopping = 'assets/icons/shopping.svg';
+const String iconsTraveling = 'assets/icons/traveling.svg';
+const String iconsFoodAndDrinks = 'assets/icons/foodAndDrinks.svg';
+const String iconsLogout = 'assets/icons/logout.svg';
