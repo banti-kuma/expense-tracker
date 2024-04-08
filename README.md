@@ -1,6 +1,6 @@
 
 # Expense Tracker
-    Expense Tracker is a Flutter project aimed at helping users manage their expenses efficiently. This application provides a user-friendly interface to track expenses and monitor spending habits. Below is a brief overview of the project structure and key features:
+Expense Tracker is a Flutter project aimed at helping users manage their expenses efficiently. This application provides a user-friendly interface to track expenses and monitor spending habits. Below is a brief overview of the project structure and key features:
 
 # Project Structure
     lib: This directory contains all the Dart code for our Flutter project.
