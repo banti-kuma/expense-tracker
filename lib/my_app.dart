@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       child: ScreenUtilInit(
         builder: (context, widget) => GetMaterialApp(
           theme: ThemeConfig.lightTheme,
-          darkTheme: ThemeConfig.darkTheme,
+          darkTheme: ThemeConfig.lightTheme,
           themeMode: ThemeMode.system,
           initialRoute: AppPages.INITIAL,
           initialBinding: InitialBinding(),

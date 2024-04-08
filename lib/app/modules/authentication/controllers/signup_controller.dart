@@ -8,8 +8,8 @@ class SignUpController extends GetxController {
   final DataBaseManager _LocalStorage = Get.find<DataBaseManager>();
 
 
-  Rx<Country> selectedCountry =
-      Country("United Arab Emirates", "flags/khm.png", "UAE", "+971").obs;
+  Country selectedCountry =
+      Country("United Arab Emirates", "flags/khm.png", "UAE", "+971");
 
   TextEditingController nameTextController = TextEditingController();
   TextEditingController emailTextController = TextEditingController();
@@ -41,7 +41,7 @@ class SignUpController extends GetxController {
         var id = await _LocalStorage.insertData(dataBody: data);
         Get.toNamed(AppRoutes.otpVerificationRoute,arguments: {
           argSignUpUserId: id,
-          argContactNumber: "${selectedCountry.value.callingCode ?? ""} ${mobileNumberTextController.text}",
+          argContactNumber: "${selectedCountry.callingCode ?? ""} ${mobileNumberTextController.text}",
         });
       } catch (e) {
         if (e.toString().contains('Phone number or email already exists in the database')) {

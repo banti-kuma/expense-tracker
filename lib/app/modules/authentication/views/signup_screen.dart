@@ -119,9 +119,10 @@ class SignUpScreen extends StatelessWidget {
   Widget _countryPickerIcon() {
     return CountryPicker(
       showFlag: false,
-      selectedCountry: controller.selectedCountry.value,
+      selectedCountry: controller.selectedCountry,
       returnCountry: (country) {
-        controller.selectedCountry.value = country;
+        controller.selectedCountry = country;
+        controller.update();
       },
     ).paddingOnly(right: margin_10);
   }

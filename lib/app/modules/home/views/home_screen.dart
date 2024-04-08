@@ -44,8 +44,8 @@ class HomeScreen extends StatelessWidget {
                 IconButton(
                   onPressed: () {
                     Get.dialog(LogOutDialogWidget(
-                        title: "Logout",
-                        description: "Do you want to logout?",
+                        title: strLogout,
+                        description: strLogoutDes,
                       onYesPressed: (){
                           controller.logOut();
                       },
@@ -116,17 +116,17 @@ class HomeScreen extends StatelessWidget {
                           ),
                         ).paddingOnly(left: margin_12),
                         Spacer(),
-                        SizedBox(
-                          height: height_20,
-                          width: height_80,
-                          child: DropDownTextFieldWidget(
-                            items: controller.items,
-                            selectedValue: controller.selectedItem,
-                            onFieldSubmitted: (value) {
-                              controller.onTypeChange(value);
-                            },
-                          ),
-                        ).paddingOnly(right: margin_20)
+                        // SizedBox(
+                        //   height: height_20,
+                        //   width: height_80,
+                        //   child: DropDownTextFieldWidget(
+                        //     items: controller.items,
+                        //     selectedValue: controller.selectedItem,
+                        //     onFieldSubmitted: (value) {
+                        //       controller.onTypeChange(value);
+                        //     },
+                        //   ),
+                        // ).paddingOnly(right: margin_20)
                       ],
                     ),
                   ).paddingOnly(top: margin_20, bottom: margin_20),
@@ -211,22 +211,4 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
-  Widget _grouplistbyWeek(List<ExpensesModel> expenses) {
-    List<String> weeks = controller.groupExpensesByWeek(expenses);
-    expenses.sort((a, b) => a.expenseDate!.compareTo(b.expenseDate!));
-    print("weeks: $weeks");
-    return ListView.builder(
-      itemCount: weeks.length,
-      itemBuilder: (context, index) {
-        return Card(
-          child: ExpansionTile(
-            title: TextView(text: weeks[index]),
-            children: [
-              _grouplist(controller.getExpensesForWeek(expenses, weeks[index]))
-            ],
-          ),
-        );
-      },
-    );
-  }
 }
