@@ -20,8 +20,8 @@ Expense Tracker utilizes SQLite for storing data locally, ensuring data persiste
 To get started with Expense Tracker, follow these steps:
 
 # Clone the repository to your local machine.
-Navigate to the project directory.
-Install dependencies using flutter pub get.
-Run the application using flutter run.
+.Navigate to the project directory.
+.Install dependencies using flutter pub get.
+.Run the application using flutter run.
 # Features
-Expense Tracking: Record and categorize expenses for easy management.
+.Expense Tracking: Record and categorize expenses for easy management.
