@@ -1,3 +1,5 @@
+import 'package:expense_tracker/app/core/base/notification_service_manager.dart';
+
 import 'app/export.dart';
 
 
@@ -11,11 +13,13 @@ RxBool isDarkModeTheme=false.obs;
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   init();
-
+  NotificationPlugin().init();
   systemThemeMode();
   orientation();
   initApp();
 }
+
+
 
 systemThemeMode() {
   var window = WidgetsBinding.instance.window;

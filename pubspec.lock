@@ -29,26 +29,26 @@ packages:
     dependency: transitive
     description:
       name: cached_network_image
-      sha256: f98972704692ba679db144261172a8e20feb145636c617af0eb4022132a6797f
+      sha256: "28ea9690a8207179c319965c13cd8df184d5ee721ae2ce60f398ced1219cea1f"
       url: "https://pub.dev"
     source: hosted
-    version: "3.3.0"
+    version: "3.3.1"
   cached_network_image_platform_interface:
     dependency: transitive
     description:
       name: cached_network_image_platform_interface
-      sha256: "56aa42a7a01e3c9db8456d9f3f999931f1e05535b5a424271e9a38cabf066613"
+      sha256: "9e90e78ae72caa874a323d78fa6301b3fb8fa7ea76a8f96dc5b5bf79f283bf2f"
       url: "https://pub.dev"
     source: hosted
-    version: "3.0.0"
+    version: "4.0.0"
   cached_network_image_web:
     dependency: transitive
     description:
       name: cached_network_image_web
-      sha256: "759b9a9f8f6ccbb66c185df805fac107f05730b1dab9c64626d1008cca532257"
+      sha256: "42a835caa27c220d1294311ac409a43361088625a4f23c820b006dd9bffb3316"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.0"
+    version: "1.1.1"
   characters:
     dependency: transitive
     description:
@@ -274,10 +274,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_local_notifications
-      sha256: "5f79a1be5e9fef9ddd7f494532d31851399099f9defc21ebcb1ae4539e8a37f1"
+      sha256: f9a05409385b77b06c18f200a41c7c2711ebf7415669350bb0f8474c07bd40d1
       url: "https://pub.dev"
     source: hosted
-    version: "14.1.5"
+    version: "17.0.0"
   flutter_local_notifications_linux:
     dependency: transitive
     description:
@@ -303,10 +303,10 @@ packages:
     dependency: transitive
     description:
       name: flutter_plugin_android_lifecycle
-      sha256: b068ffc46f82a55844acfa4fdbb61fad72fa2aef0905548419d97f0f95c456da
+      sha256: "592dc01a18961a51c24ae5d963b724b2b7fa4a95c100fe8eb6ca8a5a4732cadf"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.17"
+    version: "2.0.18"
   flutter_screenutil:
     dependency: "direct main"
     description:
@@ -359,10 +359,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_svg
-      sha256: d39e7f95621fc84376bc0f7d504f05c3a41488c562f4a8ad410569127507402c
+      sha256: "7b4ca6cf3304575fe9c8ec64813c8d02ee41d2afe60bcfe0678bcb5375d596a2"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.9"
+    version: "2.0.10+1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -401,10 +401,10 @@ packages:
     dependency: transitive
     description:
       name: http
-      sha256: "5895291c13fa8a3bd82e76d5627f69e0d85ca6a30dcac95c4ea19a5d555879c2"
+      sha256: "761a297c042deedc1ffbb156d6e2af13886bb305c2a343a4d972504cd67dd938"
       url: "https://pub.dev"
     source: hosted
-    version: "0.13.6"
+    version: "1.2.1"
   http_parser:
     dependency: transitive
     description:
@@ -553,10 +553,10 @@ packages:
     dependency: transitive
     description:
       name: path_provider_android
-      sha256: "477184d672607c0a3bf68fbbf601805f92ef79c82b64b4d6eb318cbca4c48668"
+      sha256: "51f0d2c554cfbc9d6a312ab35152fc77e2f0b758ce9f1a444a3a1e5b8f3c6b7f"
       url: "https://pub.dev"
     source: hosted
-    version: "2.2.2"
+    version: "2.2.3"
   path_provider_foundation:
     dependency: transitive
     description:
@@ -870,34 +870,34 @@ packages:
     dependency: transitive
     description:
       name: uuid
-      sha256: cd210a09f7c18cbe5a02511718e0334de6559871052c90a90c0cca46a4aa81c8
+      sha256: "814e9e88f21a176ae1359149021870e87f7cddaf633ab678a5d2b0bff7fd1ba8"
       url: "https://pub.dev"
     source: hosted
-    version: "4.3.3"
+    version: "4.4.0"
   vector_graphics:
     dependency: transitive
     description:
       name: vector_graphics
-      sha256: "4ac59808bbfca6da38c99f415ff2d3a5d7ca0a6b4809c71d9cf30fba5daf9752"
+      sha256: "32c3c684e02f9bc0afb0ae0aa653337a2fe022e8ab064bcd7ffda27a74e288e3"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.10+1"
+    version: "1.1.11+1"
   vector_graphics_codec:
     dependency: transitive
     description:
       name: vector_graphics_codec
-      sha256: f3247e7ab0ec77dc759263e68394990edc608fb2b480b80db8aa86ed09279e33
+      sha256: c86987475f162fadff579e7320c7ddda04cd2fdeffbe1129227a85d9ac9e03da
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.10+1"
+    version: "1.1.11+1"
   vector_graphics_compiler:
     dependency: transitive
     description:
       name: vector_graphics_compiler
-      sha256: "18489bdd8850de3dd7ca8a34e0c446f719ec63e2bab2e7a8cc66a9028dd76c5a"
+      sha256: "12faff3f73b1741a36ca7e31b292ddeb629af819ca9efe9953b70bd63fc8cd81"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.10+1"
+    version: "1.1.11+1"
   vector_math:
     dependency: transitive
     description:

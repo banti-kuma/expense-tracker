@@ -47,7 +47,7 @@ dependencies:
   package_info_plus: ^4.0.1
   flutter_screenutil: ^5.7.0
   colorful_safe_area: ^1.0.0
-  flutter_local_notifications: ^14.0.0+1
+  flutter_local_notifications:
   flutter_animate: ^4.1.1+1
   fancy_shimmer_image: ^2.0.2
   otp_text_field: ^1.1.3

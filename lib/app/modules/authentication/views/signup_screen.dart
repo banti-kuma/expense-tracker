@@ -1,3 +1,5 @@
+import 'package:expense_tracker/app/core/base/notification_service_manager.dart';
+
 import '../../../export.dart';
 
 class SignUpScreen extends StatelessWidget {
@@ -160,7 +162,8 @@ class SignUpScreen extends StatelessWidget {
         buttonBgColor: AppColors.appGreenColor,
         onPressed: () {
           // print("object");
-          controller.SignUp();
+          NotificationPlugin().showNotification();
+          // controller.SignUp();
         },
         buttonText: strSignUp,
     buttonTextStyle: textStyleBodyMedium().copyWith(
